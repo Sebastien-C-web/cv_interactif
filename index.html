@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="background-c">
+        <section class="container mx-auto">
+            <div class="">
+                <div class="border border-amber-500 rounded-xl hidden" id="comp">
+                    <article>
+                        <h2 class="text-2xl text-amber-500 text-center">Compétances</h2>
+                        <ul class="text-2xl text-amber-500 text-center">
+                            <li>Languages de programmation : HTML, CSS, JavaScript, PhP</li>
+                            <li>Framework : Symphony</li>
+                            <li>Compréhension de l'experience utilisateur</li>
+                            <li>Travail en équipe</li>
+                            <li>Capacité d'adaptation</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="absolute left-2/4 -translate-x-2/4 pt-10 ">
+                    <p class="bulle">
+                        Bonjour, je suis Bat-chan. Je vais vous présenter le CV interactif de Sébastien ! </br>
+                        Veuillez cliquer sur les boutons pour ouvrir les différentes séctions.
+                    </p>
+                    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJ1YXZwZW0wbW9yMWlvbzhpNWEzcDE2anlxZ2hncTVwd2R3OGVkeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/e7QR56Mun2vA4Fp0nI/giphy.gif"
+                        alt="gif assistant chauve souris" id="gifgauche" class="absolute left-2/4 -translate-x-2/4">
+                </div>
+            </div>
+            <div class="flex justify-around">
+                <div class="flex flex-col justify-between ">
+                    <button type="button" class="button " id="competances"></button>
+                    <button type="button" class="button " id="diplome"></button>
+                </div>
+                <div>
+                    <button type="button" class="button " id="xp"></button>
+                    <button type="button" class="button " id="langue"></button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
