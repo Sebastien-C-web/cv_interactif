@@ -1,3 +1,5 @@
+@media only screen and (max-width:  1023px) {
+
 .background-c {
     background-color: rgb(17, 35, 51);
     height: 100vh;
@@ -40,25 +42,73 @@
     width: 4rem;
     height: 4rem;
     display: inline-block;
-}
+}    
 
-/* .bounce {
-    animation: bounce 2s ease infinite;
-}
-  @keyframes bounce {
-      70% { transform:translateY(0%); }
-      80% { transform:translateY(-15%); }
-      90% { transform:translateY(0%); }
-      95% { transform:translateY(-7%); }
-      97% { transform:translateY(0%); }
-      99% { transform:translateY(-3%); }
-      100% { transform:translateY(0); }
-}
 
-.pulse {
-    animation: pulse 1s infinite ease-in-out alternate;
-  }
-  @keyframes pulse {
-    from { transform: scale(0.8); }
-    to { transform: scale(1.2); } */
-  /* } */
+
+
+}
+ @media only screen and (min-width: 1024px) {
+    .background-c {
+        background-color: rgb(17, 35, 51);
+        height: 100vh;
+    }
+    
+    #gifgauche {
+        width: 60%;
+        height: fit-content;
+    }
+    
+    
+    .bulle {
+        padding: 0.5rem;
+        background-color: white;
+        border: solid 2px, black;
+        border-radius: 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        text-align: center;
+        position: relative;
+    }
+    
+    .bulle::after {
+        content: '';
+        position: absolute;
+        width: 45px;
+        height: 30px;
+        bottom: -30px;
+        background: white;
+        right: calc(50%);
+        clip-path: polygon(38% 0, 100% 100%, 100% 0);
+        border: solid 2px, black;
+        border-top: none;
+    }
+    
+    .button {
+        border-radius: 9999px;
+        background: rgb(179,169,59);
+        background: radial-gradient(circle, rgba(179,169,59,1) 24%, rgba(208,206,26,1) 43%, rgba(0,212,255,1) 99%);
+        width: 4rem;
+        height: 4rem;
+        display: inline-block;
+    } 
+    #comp {
+    position: absolute;
+    width: 20%;
+    left: 10%;
+    transform: translateX(-25%);
+    }
+
+    #dip {
+        position: absolute;
+        width: 20%;
+        left: 10%;
+        transform: translateX(-25%);
+        top: 58%;
+    }
+   
+ }
+
+
+
+

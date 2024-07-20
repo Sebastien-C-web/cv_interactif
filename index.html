@@ -10,36 +10,47 @@
 </head>
 
 <body>
-    <main class="background-c">
-        <section class="container mx-auto">
-            <div class="">
-                <div class="border border-amber-500 rounded-xl hidden" id="comp">
+    <main class="background-c " id="main">
+        <section class="container mx-auto pt-2">
+            
+                <div class="border border-amber-500 rounded-xl hidden lg:mt-8 p-2 m-2" id="comp">
                     <article>
-                        <h2 class="text-2xl text-amber-500 text-center">Compétances</h2>
+                        <h2 class="text-2xl text-green-500 text-center">Compétances</h2>
                         <ul class="text-2xl text-amber-500 text-center">
-                            <li>Languages de programmation : HTML, CSS, JavaScript, PhP</li>
-                            <li>Framework : Symphony</li>
-                            <li>Compréhension de l'experience utilisateur</li>
-                            <li>Travail en équipe</li>
-                            <li>Capacité d'adaptation</li>
+                            <li>-Languages de programmation :</br> <span class="text-2xl text-sky-500">HTML, CSS, JavaScript, PHP</span></li>
+                            <li>-Framework : <span class="text-2xl text-sky-500">Symfony</span></li>
+                            <li>-Compréhension de l'experience utilisateur</li>
+                            <li>-Travail en équipe</li>
+                            <li>-Capacité d'adaptation</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="border border-amber-500 rounded-xl hidden lg:mt-8 p-2 m-2" id="dip">
+                    <article>
+                        <h2 class="text-2xl text-green-500 text-center">Diplômes et Formation</h2>
+                        <ul class="text-2xl text-amber-500 text-center">
+                            <li>-Développeur Web et Web Mobile</br>2024-en cours <span class="text-2xl text-sky-500">AFPA Châtellerault</span></li>
+                            <li>-Dévoloppeur d'application mobiles</br>2019-2020 <span class="text-2xl text-sky-500">CNAM Poitiers</span></br><span class="text-sm">Formation inachevée</span></li>
+                            <li>-Licence Langue Etrangère Appliquée</li></br>2014-2016<span class="text-2xl text-sky-500">Université de Poitiers</span>
+                            <li>-Licence Sciences Technologiques Informatique</li></br>2012-2013<span class="text-2xl text-sky-500">Université de Poitiers</span>
                         </ul>
                     </article>
                 </div>
                 <div class="absolute left-2/4 -translate-x-2/4 pt-10 ">
-                    <p class="bulle">
-                        Bonjour, je suis Bat-chan. Je vais vous présenter le CV interactif de Sébastien ! </br>
+                    <p class="bulle animate-text">
+                        Bonjour, je suis Bat-chan. Je vais vous présenter le CV interactif de Sébastien !</br>
                         Veuillez cliquer sur les boutons pour ouvrir les différentes séctions.
                     </p>
                     <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJ1YXZwZW0wbW9yMWlvbzhpNWEzcDE2anlxZ2hncTVwd2R3OGVkeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/e7QR56Mun2vA4Fp0nI/giphy.gif"
                         alt="gif assistant chauve souris" id="gifgauche" class="absolute left-2/4 -translate-x-2/4">
                 </div>
-            </div>
-            <div class="flex justify-around">
-                <div class="flex flex-col justify-between ">
+            
+            <div class="flex lg:justify-around justify-between">
+                <div class="flex flex-col justify-between h-[40vh] mt-40 lg:ml-36 ">
                     <button type="button" class="button " id="competances"></button>
                     <button type="button" class="button " id="diplome"></button>
                 </div>
-                <div>
+                <div class="flex flex-col justify-between h-[40vh] mt-40 lg:mr-36 ">
                     <button type="button" class="button " id="xp"></button>
                     <button type="button" class="button " id="langue"></button>
                 </div>
@@ -47,6 +58,7 @@
 
         </section>
     </main>
+    
     <script src="script.js"></script>
 </body>
 
