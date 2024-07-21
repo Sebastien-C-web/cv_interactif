@@ -13,7 +13,7 @@
     <main class="background-c " id="main">
         <section class="container mx-auto pt-2">
             
-                <div class="border border-amber-500 rounded-xl hidden lg:mt-8 p-2 m-2" id="comp">
+                <div class=" hidden lg:mt-8 p-2 m-2 box" id="comp">
                     <article>
                         <h2 class="text-2xl text-green-500 text-center">Compétances</h2>
                         <ul class="text-2xl text-amber-500 text-center">
@@ -25,19 +25,19 @@
                         </ul>
                     </article>
                 </div>
-                <div class="border border-amber-500 rounded-xl hidden lg:mt-8 p-2 m-2" id="dip">
+                <div class="box hidden lg:mt-8 p-2 m-2 scale-in-ver-top" id="dip">
                     <article>
                         <h2 class="text-2xl text-green-500 text-center">Diplômes et Formation</h2>
-                        <ul class="text-2xl text-amber-500 text-center">
+                        <ul class="text-2xl text-amber-500 text-center ">
                             <li>-Développeur Web et Web Mobile</br>2024-en cours <span class="text-2xl text-sky-500">AFPA Châtellerault</span></li>
                             <li>-Dévoloppeur d'application mobiles</br>2019-2020 <span class="text-2xl text-sky-500">CNAM Poitiers</span></br><span class="text-sm">Formation inachevée</span></li>
-                            <li>-Licence Langue Etrangère Appliquée</li></br>2014-2016<span class="text-2xl text-sky-500">Université de Poitiers</span>
-                            <li>-Licence Sciences Technologiques Informatique</li></br>2012-2013<span class="text-2xl text-sky-500">Université de Poitiers</span>
+                            <li>-Licence Langue Etrangère Appliquée</br>2014-2016<span class="text-2xl text-sky-500">Université de Poitiers</span></li>
+                            <li>-Licence Sciences Technologiques Informatique</br>2012-2013<span class="text-2xl text-sky-500">Université de Poitiers</span></li>
                         </ul>
                     </article>
                 </div>
-                <div class="absolute left-2/4 -translate-x-2/4 pt-10 ">
-                    <p class="bulle animate-text">
+                <div class="absolute left-2/4 -translate-x-2/4 pt-10 w-[40%] ">
+                    <p class="bulle fade" id="bulle">
                         Bonjour, je suis Bat-chan. Je vais vous présenter le CV interactif de Sébastien !</br>
                         Veuillez cliquer sur les boutons pour ouvrir les différentes séctions.
                     </p>
@@ -46,16 +46,36 @@
                 </div>
             
             <div class="flex lg:justify-around justify-between">
-                <div class="flex flex-col justify-between h-[40vh] mt-40 lg:ml-36 ">
+                <div class="flex flex-col justify-between h-[40vh] mt-40 lg:ml-36 ml-6">
                     <button type="button" class="button " id="competances"></button>
                     <button type="button" class="button " id="diplome"></button>
                 </div>
-                <div class="flex flex-col justify-between h-[40vh] mt-40 lg:mr-36 ">
+                <div class="flex flex-col justify-between h-[40vh] mt-40 lg:mr-36 mr-6 ">
                     <button type="button" class="button " id="xp"></button>
                     <button type="button" class="button " id="langue"></button>
                 </div>
             </div>
-
+            <div class="box hidden lg:mt-8 p-2 m-2" id="exp">
+                <article>
+                    <h2 class="text-2xl text-green-500 text-center">Expérience Professionnelles</h2>
+                    <ul class="text-2xl text-amber-500 text-center">
+                        <li>-Assistant Administratif</br>2018-2019 <span class="text-2xl text-sky-500">COFAQ Poitiers</span></br>Employé au service courrier et comptabilité</li>
+                        <li>-Employé polyvalent en restaurastion</br>2013 <span class="text-2xl text-sky-500">L'Arche Usseau</span></br>Service/ Encaissement/ Nettoyage</li>
+                        <li>-Agent de nettoyage industriel</br>2012<span class="text-2xl text-sky-500">Fonderie du Poitou</span></br>Travail saisonnier</li>
+                        <li>-Employé Libre-Service</br>2008<span class="text-2xl text-sky-500">E.Leclerc Châtellerault</span></br>Travail saisonnier</li>
+                    </ul>
+                </article>
+            </div>
+            <div class="box hidden lg:mt-8 p-2 m-2" id="la">
+                <article>
+                    <h2 class="text-2xl text-green-500 text-center">Langues</h2>
+                    <ul class="text-2xl text-amber-500 text-center">
+                        <li>-Anglais : <span class="text-2xl text-sky-500">Courrant</span></li>
+                        <li>-Espagnol : <span class="text-2xl text-sky-500">Intermédiaire</span></li>
+                        <li>-Japonais : <span class="text-2xl text-sky-500">Débutant</span></li>
+                    </ul>
+                </article>
+            </div>
         </section>
     </main>
     
