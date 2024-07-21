@@ -10,7 +10,6 @@
         height: fit-content;
     }
 
-
     .bulle {
         padding: 0.5rem;
         background-color: white;
@@ -43,10 +42,6 @@
         height: 4rem;
         display: inline-block;
     }
-
-
-
-
 }
 
 @media only screen and (min-width: 1024px) {
@@ -124,9 +119,6 @@
         top: 60%;
         transform: translateX(-25%);
     }
-
-
-
 }
 
 .box {
@@ -158,38 +150,38 @@
     }
 }
 
-.fadeInDown{
+.fadeInDown {
     opacity: 0;
     -webkit-animation: fadeInDown 1s;
     animation: fadeInDown 1s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-  }
-  @-webkit-keyframes fadeInDown {
+}
+
+@-webkit-keyframes fadeInDown {
     0% {
-      opacity: 0;
-      -webkit-transform: translate3d(0, -100%, 0);
-              transform: translate3d(0, -100%, 0);
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
     }
-  
+
     100% {
-      opacity: 1;
-      -webkit-transform: none;
-              transform: none;
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
     }
-  }
-  
-  @keyframes fadeInDown {
+}
+
+@keyframes fadeInDown {
     0% {
-      opacity: 0;
-      -webkit-transform: translate3d(0, -100%, 0);
-              transform: translate3d(0, -100%, 0);
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
     }
-  
+
     100% {
-      opacity: 1;
-      -webkit-transform: none;
-              transform: none;
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
     }
-  }
-  
+}

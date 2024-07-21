@@ -9,7 +9,6 @@ let main = document.getElementById('main')
 let exp = document.getElementById('exp');
 let lang = document.getElementById('la');
 
-// console.log(main)
 
 
 btncomp.addEventListener('click', ()=> {
